@@ -103,4 +103,18 @@
     </plugins>
   </reporting>
 
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>nexus snapshot repo</name>
+      <url>http://nexus:8081/repository/snapshot_repo/</url>
+    </repository>
+
+    <repository>
+      <id>nexus</id>
+      <name>nexus release repo</name>
+      <url>http://nexus:8081/repository/release_repo/</url>
+    </repository>
+  </distributionManagement>
+
 </project>
